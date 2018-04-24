@@ -38,5 +38,6 @@ __初回起動の場合は完了するまで時間がかかります__
 ```
 docker exec -it workspace_container bash
 composer install
+composer update
 php artisan key:generate
 ```
